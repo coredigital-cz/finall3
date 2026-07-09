@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReviziiPro Cluj | Service Grupuri Electrogene Diesel & Utilaje Construcții</title>
+<meta name="description" content="Instalare, PIF, Constatare, Revizie, Reparație grupuri electrogene / generatoare de curent industriale cu motorizare diesel (Perkins, Iveco, Baudouin, Volvo Penta, Scania, Cummins, Doosan, Man, Hyundai, Yanmar, Kubota, Honda). Programare display ComAp AMF9/AMF20/AMF25, DSE 7320, Datakom D300/D500, Deif. Tablou AAR. Service pe teren Cluj-Napoca. Sună: 0758 552 980">
+<meta name="keywords" content="service grupuri electrogene Cluj, revizie generator diesel, reparatii generatoare curent, AVR SX460, Deep Sea Electronics DSE7320, ComAp AMF9 AMF20 AMF25 InteliConfig, Datakom D300 D500, Deif controller, Perkins, Iveco, Baudouin, Volvo Penta, Scania, Cummins, Doosan, Man, Hyundai, Dewerk, Yanmar, Kubota, Honda, alternator de forță trifazat, tablou AAR, pompa hidraulica, service pe teren Cluj, mentenanta generator, PIF instalare constatare, piese schimb generatoare, teste sarcina generator">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0b0f14;--bg2:#101820;--card:#151e2b;--border:#1f2d3d;--bh:#2c3e50;--or:#e97316;--ob:#f59e0b;--od:#c2410c;--bl:#2563eb;--gr:#16a34a;--text:#dfe4ea;--dim:#8899aa;--mut:#556677;--w:#fff}
+html{scroll-behavior:smooth}
+body{font-family:'Space Grotesk',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+a{color:var(--or);text-decoration:none;transition:.2s}a:hover{color:var(--ob)}
+.ctn{max-width:1140px;margin:0 auto;padding:0 20px}
+.sec{padding:80px 0}
+.tag{font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:2.5px;text-transform:uppercase;color:var(--or);margin-bottom:10px;display:block}
+.ttl{font-size:clamp(1.6rem,3.8vw,2.4rem);font-weight:700;line-height:1.12;margin-bottom:14px}
+.sub{color:var(--dim);font-size:1rem;max-width:600px;line-height:1.7}
+
+/* TOP */
+.top{background:var(--or);color:var(--bg);font-size:.78rem;font-weight:600;padding:6px 0;text-align:center;letter-spacing:.3px}
+.top a{color:var(--bg);font-weight:700;text-decoration:underline}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:100;background:rgba(11,15,20,.93);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);padding:0 20px}
+.nav-in{max-width:1140px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{display:flex;align-items:center;gap:10px}
+.logo svg{width:38px;height:38px}
+.logo-t{font-weight:700;font-size:1.1rem;color:var(--w)}.logo-t em{font-style:normal;color:var(--or)}
+.nl{display:flex;gap:22px;list-style:none;align-items:center}
+.nl a{color:var(--dim);font-size:.84rem;font-weight:500}.nl a:hover{color:var(--or)}
+.nc{background:var(--or);color:var(--bg)!important;padding:7px 16px;border-radius:6px;font-weight:700!important;font-size:.82rem}
+.nc:hover{background:var(--ob)}
+.ham{display:none;background:none;border:none;cursor:pointer;padding:4px}
+.ham span{display:block;width:22px;height:2px;background:var(--text);margin:5px 0;transition:.3s}
+
+/* HERO */
+.hero{position:relative;min-height:90vh;display:flex;align-items:center;background:linear-gradient(155deg,var(--bg),#0e1a26 60%,#111e2e)}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 500px 350px at 75% 25%,rgba(233,115,22,.07),transparent),radial-gradient(ellipse 400px 300px at 25% 75%,rgba(37,99,235,.04),transparent);pointer-events:none}
+.hg{position:absolute;inset:0;background-image:linear-gradient(rgba(31,45,61,.25) 1px,transparent 1px),linear-gradient(90deg,rgba(31,45,61,.25) 1px,transparent 1px);background-size:50px 50px;mask-image:radial-gradient(ellipse 70% 55% at 50% 50%,#000,transparent);pointer-events:none}
+.hc{position:relative;z-index:2;max-width:660px}
+.hb{display:inline-flex;align-items:center;gap:8px;background:rgba(233,115,22,.1);border:1px solid rgba(233,115,22,.22);border-radius:40px;padding:5px 14px;font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:2px;text-transform:uppercase;color:var(--or);margin-bottom:22px}
+.hd{width:6px;height:6px;border-radius:50%;background:var(--gr);animation:pls 2s infinite}
+@keyframes pls{0%,100%{opacity:1}50%{opacity:.35}}
+.hero h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:700;line-height:1.08;margin-bottom:18px}
+.hl{background:linear-gradient(135deg,var(--or),var(--ob));-webkit-background-clip:text;-webkit-text-color:transparent;background-clip:text;color:transparent}
+.hsub{font-size:1.05rem;color:var(--dim);line-height:1.7;margin-bottom:32px;max-width:540px}
+.ha{display:flex;gap:12px;flex-wrap:wrap}
+.bp{display:inline-flex;align-items:center;gap:8px;background:var(--or);color:var(--bg);padding:13px 26px;border-radius:7px;font-weight:700;font-size:.92rem;border:none;cursor:pointer;transition:.2s}
+.bp:hover{background:var(--ob);transform:translateY(-1px);color:var(--bg)}
+.bs{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.05);border:1px solid var(--border);color:var(--text);padding:13px 26px;border-radius:7px;font-weight:600;font-size:.92rem;cursor:pointer;transition:.2s}
+.bs:hover{border-color:var(--or);color:var(--or)}
+.hst{display:flex;gap:36px;margin-top:48px;padding-top:28px;border-top:1px solid var(--border)}
+.hsv{font-size:1.7rem;font-weight:700;color:var(--w)}.hsv span{color:var(--or)}
+.hsl{font-size:.75rem;color:var(--mut);margin-top:2px}
+/* Brands bar */
+.brands-bar{margin-top:32px;display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+.brands-bar span{font-size:.7rem;color:var(--mut);font-family:'JetBrains Mono',monospace;letter-spacing:1px;text-transform:uppercase}
+.brand-pill{font-size:.72rem;font-family:'JetBrains Mono',monospace;background:rgba(233,115,22,.06);border:1px solid rgba(233,115,22,.12);color:var(--or);padding:3px 10px;border-radius:4px;letter-spacing:.5px}
+
+/* DUAL */
+.dual{background:var(--bg2)}
+.dg{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:36px}
+.dc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:36px 30px;position:relative;overflow:hidden;transition:.3s}
+.dc:hover{border-color:var(--or);transform:translateY(-2px)}
+.dc::after{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--or),var(--ob));transform:scaleX(0);transition:.3s;transform-origin:left}
+.dc:hover::after{transform:scaleX(1)}
+.di{width:56px;height:56px;background:rgba(233,115,22,.08);border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.di svg{width:26px;height:26px;stroke:var(--or);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.dc h3{font-size:1.15rem;font-weight:700;margin-bottom:8px}
+.dc>p{color:var(--dim);font-size:.88rem;line-height:1.65;margin-bottom:14px}
+.dt{display:flex;flex-wrap:wrap;gap:6px}
+.dtt{font-size:.7rem;font-family:'JetBrains Mono',monospace;background:rgba(233,115,22,.08);border:1px solid rgba(233,115,22,.15);color:var(--or);padding:3px 9px;border-radius:4px;letter-spacing:.4px}
+
+/* SERVICES GRID */
+.sg{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:36px}
+.sc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:28px 24px;transition:.3s}
+.sc:hover{border-color:var(--bh)}
+.si{width:42px;height:42px;background:rgba(233,115,22,.08);border-radius:8px;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.si svg{width:20px;height:20px;stroke:var(--or);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.sc h4{font-size:1rem;font-weight:700;margin-bottom:6px}
+.sc p{color:var(--dim);font-size:.85rem;line-height:1.6}
+
+/* AVR Section */
+.avr-wrap{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:36px;align-items:start}
+.avr-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px 28px}
+.avr-card h3{font-size:1.15rem;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.avr-card h3 .avr-badge{font-family:'JetBrains Mono',monospace;font-size:.65rem;background:var(--or);color:var(--bg);padding:2px 8px;border-radius:3px;letter-spacing:.5px}
+.avr-card p{color:var(--dim);font-size:.88rem;line-height:1.65;margin-bottom:12px}
+.avr-specs{list-style:none;display:flex;flex-direction:column;gap:6px}
+.avr-specs li{font-size:.82rem;color:var(--dim);display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid rgba(31,45,61,.5)}
+.avr-specs li::before{content:'→';color:var(--or);font-weight:700}
+
+/* CHECKLIST - from real service reports */
+.chk-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+.chk-col{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px 20px}
+.chk-col h4{font-size:.9rem;font-weight:700;margin-bottom:14px;color:var(--or);display:flex;align-items:center;gap:8px}
+.chk-col h4 svg{width:16px;height:16px;stroke:var(--or);fill:none;stroke-width:2}
+.chk-list{list-style:none;display:flex;flex-direction:column;gap:8px}
+.chk-list li{font-size:.8rem;color:var(--dim);display:flex;align-items:flex-start;gap:8px;line-height:1.45}
+.chk-list li::before{content:'☑';color:var(--gr);font-size:.75rem;flex-shrink:0;margin-top:1px}
+
+/* PLANS */
+.plans{background:var(--bg2)}
+.plans-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}
+.plan{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px 26px;transition:.3s;position:relative}
+.plan.feat{border-color:var(--or)}
+.plan.feat .pbadge{display:inline-block;background:var(--or);color:var(--bg);font-size:.68rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:3px 10px;border-radius:4px;margin-bottom:10px}
+.plan h3{font-size:1.1rem;font-weight:700;margin-bottom:4px}
+.plan .pdesc{font-size:.82rem;color:var(--mut);margin-bottom:14px}
+.plan .pprice{font-family:'JetBrains Mono',monospace;font-size:1.5rem;font-weight:700;color:var(--or);margin-bottom:2px}
+.plan .pnote{font-size:.72rem;color:var(--mut);margin-bottom:18px}
+.plan ul{list-style:none;margin-bottom:22px}
+.plan ul li{font-size:.82rem;color:var(--dim);padding:5px 0;border-bottom:1px solid rgba(31,45,61,.5);display:flex;align-items:center;gap:7px}
+.plan ul li::before{content:'✓';color:var(--gr);font-weight:700;font-size:.75rem}
+.plan .bp{width:100%;justify-content:center;padding:11px;font-size:.88rem}
+
+/* FAQ */
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:36px}
+.fq{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px 22px;transition:.3s}
+.fq:hover{border-color:var(--bh)}
+.fq h4{font-size:.95rem;font-weight:700;margin-bottom:8px;color:var(--w)}
+.fq p{color:var(--dim);font-size:.85rem;line-height:1.6}
+
+/* SUPPLIERS */
+.sup-wrap{margin-top:36px}
+.sup-text{color:var(--dim);font-size:.92rem;line-height:1.7;max-width:700px;margin-bottom:24px}
+.sup-grid{display:flex;flex-wrap:wrap;gap:10px}
+.sup-pill{font-size:.78rem;font-family:'JetBrains Mono',monospace;background:rgba(233,115,22,.06);border:1px solid rgba(233,115,22,.12);color:var(--or);padding:6px 14px;border-radius:6px;letter-spacing:.3px}
+
+/* WHY */
+.wg{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:36px}
+.wi{background:linear-gradient(135deg,rgba(233,115,22,.03),rgba(37,99,235,.02));border:1px solid var(--border);border-radius:10px;padding:24px 20px;text-align:center}
+.wn{font-family:'JetBrains Mono',monospace;font-size:2rem;font-weight:700;color:var(--or);line-height:1;margin-bottom:6px}
+.wi h4{font-size:.92rem;font-weight:700;margin-bottom:4px}.wi p{color:var(--dim);font-size:.82rem;line-height:1.5}
+
+/* CTA */
+.cta-b{background:linear-gradient(135deg,var(--od),var(--or));padding:56px 0;text-align:center}
+.cta-b h2{font-size:clamp(1.4rem,3.2vw,2rem);font-weight:700;color:var(--bg);margin-bottom:10px}
+.cta-b p{color:rgba(11,15,20,.65);font-size:1rem;margin-bottom:24px}
+.bd{display:inline-flex;align-items:center;gap:8px;background:var(--bg);color:var(--or);padding:13px 30px;border-radius:7px;font-weight:700;font-size:.95rem;border:none;cursor:pointer;transition:.2s}
+.bd:hover{background:var(--bg2);transform:translateY(-1px)}
+
+/* CONTACT */
+.cw{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:36px}
+.ci{display:flex;flex-direction:column;gap:16px}
+.ct{display:flex;gap:14px;align-items:flex-start;padding:18px;background:var(--card);border:1px solid var(--border);border-radius:8px}
+.cc{flex-shrink:0;width:40px;height:40px;background:rgba(233,115,22,.08);border-radius:8px;display:flex;align-items:center;justify-content:center}
+.cc svg{width:18px;height:18px;stroke:var(--or);fill:none;stroke-width:1.8}
+.ct h4{font-size:.9rem;font-weight:600;margin-bottom:2px}.ct p{font-size:.85rem;color:var(--dim)}.ct a{color:var(--or);font-weight:600}
+.cm{border-radius:10px;overflow:hidden;border:1px solid var(--border);min-height:380px}
+.cm iframe{width:100%;height:100%;min-height:380px;border:0;filter:invert(90%) hue-rotate(180deg) brightness(1.1) contrast(.9)}
+
+/* FOOTER */
+.ft{background:var(--bg2);border-top:1px solid var(--border);padding:44px 0 20px}
+.ft-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;padding-bottom:28px;border-bottom:1px solid var(--border)}
+.ft-brand p{color:var(--dim);font-size:.82rem;line-height:1.6;margin-top:10px;max-width:300px}
+.ft h5{font-size:.8rem;font-weight:700;margin-bottom:12px}
+.fl{list-style:none}.fl li{margin-bottom:6px}.fl a{color:var(--dim);font-size:.82rem}.fl a:hover{color:var(--or)}
+.fb{display:flex;justify-content:space-between;align-items:center;padding-top:18px;font-size:.74rem;color:var(--mut)}
+.fleg a{color:var(--mut);margin-left:14px}.fleg a:hover{color:var(--or)}
+
+/* MOBILE */
+.mb{display:none;position:fixed;bottom:0;left:0;right:0;z-index:200;background:var(--bg2);border-top:1px solid var(--border);padding:10px 16px}
+.mbi{display:flex;gap:10px}
+.mb a{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:11px;border-radius:7px;font-weight:700;font-size:.84rem}
+.mb .mc{background:var(--or);color:var(--bg)}.mb .mw{background:#25d366;color:var(--w)}
+.waf{position:fixed;bottom:26px;right:26px;z-index:150;width:54px;height:54px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(37,211,102,.4);transition:.2s}
+.waf:hover{transform:scale(1.08)}.waf svg{width:26px;height:26px;fill:var(--w)}
+
+@media(max-width:900px){
+.nl{display:none}.ham{display:block}
+.nl.open{display:flex;flex-direction:column;position:absolute;top:60px;left:0;right:0;background:var(--bg2);border-bottom:1px solid var(--border);padding:18px;gap:14px;z-index:99}
+.hero{min-height:auto;padding:90px 0 50px}
+.hst{gap:20px;flex-wrap:wrap}
+.dg,.avr-wrap,.chk-grid,.plans-grid,.faq-grid,.cw{grid-template-columns:1fr}
+.ft-top{grid-template-columns:1fr 1fr}
+.mb{display:block}.waf{bottom:82px}body{padding-bottom:66px}
+}
+@media(max-width:480px){.hero h1{font-size:1.8rem}.ha{flex-direction:column}.ha a{width:100%;justify-content:center}.ft-top{grid-template-columns:1fr}}
+.rv{opacity:0;transform:translateY(20px);transition:opacity .55s,transform .55s}.rv.vis{opacity:1;transform:translateY(0)}
+</style>
+</head>
+<body>
+
+<!-- TOP -->
+<div class="top">🔧 Service pe teren 24/24h în Cluj și împrejurimi — <a href="tel:+40758552980">0758 552 980</a></div>
+
+<!-- NAV -->
+<nav class="nav"><div class="nav-in">
+<a href="#" class="logo">
+<svg viewBox="0 0 38 38" fill="none"><path d="M19 4l2.2 3.2 3.8-.8.8 3.8 3.8.8L28.4 15l2.6 2.8-2.6 2.8 1.2 3.8-3.8.8-.8 3.8-3.8-.8L19 30.4l-2.2-3.2-3.8.8-.8-3.8-3.8-.8L9.6 19.6 7 16.8l2.6-2.8-1.2-3.8 3.8-.8.8-3.8 3.8.8L19 4z" stroke="#e97316" stroke-width="1.4" fill="rgba(233,115,22,.06)"/><path d="M21 9l-2.5 5.5h3L19.5 21l4-6h-3L21 9z" fill="#e97316" opacity=".8"/><path d="M14 24l4-4m0 0l2.5-2.5a3.5 3.5 0 10-5 0L14 20m4-4l-1.5 1.5" stroke="#e97316" stroke-width="1.3" stroke-linecap="round" fill="none"/></svg>
+<span class="logo-t">Revizii<em>Pro</em></span>
+</a>
+<ul class="nl" id="nL">
+<li><a href="#generatoare">Generatoare</a></li>
+<li><a href="#utilaje">Utilaje</a></li>
+<li><a href="#automatizare">Automatizare</a></li>
+<li><a href="#avr">AVR</a></li>
+<li><a href="#tarife">Tarife</a></li>
+<li><a href="#contact" class="nc">Contact</a></li>
+</ul>
+<button class="ham" id="ham" aria-label="Meniu"><span></span><span></span><span></span></button>
+</div></nav>
+
+<!-- HERO -->
+<section class="hero" id="hero"><div class="hg"></div><div class="ctn"><div class="hc">
+<div class="hb"><span class="hd"></span> Service autorizat Cluj-Napoca</div>
+<h1>Service & revizii <span class="hl">grupuri electrogene diesel</span> și <span class="hl">utilaje de construcții</span></h1>
+<p class="hsub">Activitate principală: <strong>Instalare, PIF, Constatare, Revizie, Reparație</strong> grupuri electrogene / generatoare de curent industriale cu motorizare diesel. Programare display ComAp AMF9/AMF20/AMF25, Deep Sea Electronics DSE 7320, Datakom D300/D500, Deif controller. Service și revizii pe teren — schimb ulei, antigel, filtre, AVR SX460, tablou AAR.</p>
+<div class="ha">
+<a href="tel:+40758552980" class="bp"><svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>0758 552 980</a>
+<a href="https://wa.me/40758552980?text=Buna%20ziua%2C%20am%20nevoie%20de%20service%20generator." class="bs" target="_blank" rel="noopener"><svg width="17" height="17" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.79 23.329l4.47-1.472A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>WhatsApp</a>
+</div>
+<div class="hst">
+<div><div class="hsv">15<span>+</span></div><div class="hsl">Ani experiență</div></div>
+<div><div class="hsv">700<span>+</span></div><div class="hsl">Echipamente revizuite</div></div>
+<div><div class="hsv">24<span>/24h</span></div><div class="hsl">Backup service</div></div>
+</div>
+<div class="brands-bar">
+<span>Motorizări:</span>
+<span class="brand-pill">Perkins</span>
+<span class="brand-pill">Iveco</span>
+<span class="brand-pill">Baudouin</span>
+<span class="brand-pill">Volvo Penta</span>
+<span class="brand-pill">Scania</span>
+<span class="brand-pill">Cummins</span>
+<span class="brand-pill">Doosan</span>
+<span class="brand-pill">Man</span>
+<span class="brand-pill">Hyundai</span>
+<span class="brand-pill">Dewerk</span>
+<span class="brand-pill">Yanmar</span>
+<span class="brand-pill">Kubota</span>
+<span class="brand-pill">Honda</span>
+</div>
+</div></div></section>
+
+<!-- ═══ SECTION 1: GENERATOARE ═══ -->
+<section class="sec dual" id="generatoare"><div class="ctn">
+<span class="tag rv">Grupuri electrogene</span>
+<h2 class="ttl rv">Service generatoare de curent industriale cu motorizare diesel</h2>
+<p class="sub rv" style="max-width:700px"><strong>Instalare, PIF (Punere În Funcțiune), Constatare, Revizie, Reparație</strong> — pentru orice marcă de grup electrogen diesel. Clientul achiziționează piesele și consumabilele, noi asigurăm manopera profesională pe teren.</p>
+<div class="dc rv" style="margin-top:28px">
+<div class="di"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+<h3>Motorizări diesel pe care lucrăm</h3>
+<p>Perkins, Iveco, Baudouin, Volvo Penta, Scania, Hyundai, Dewerk, Man, Yanmar, Kubota, Honda, Cummins, Doosan. Mărci generatoare: Zenessis, Endress Power, Himoinsa, SDMO, Pramac, Gesan, RID, GreenPower, Olympian.</p>
+<div class="dt" style="margin-top:12px">
+<span class="dtt">17–900 kVA</span>
+<span class="dtt">Alternator de forță trifazat</span>
+<span class="dtt">Stamford</span>
+<span class="dtt">Mecc Alte</span>
+<span class="dtt">Leroy Somer</span>
+<span class="dtt">AVR SX460</span>
+</div>
+</div>
+<div class="sg" style="margin-top:24px">
+<div class="sc rv">
+<div class="si"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4m0 14v4m-9.66-5.66l2.83-2.83m11.31-5.66l2.83-2.83M1 12h4m14 0h4"/></svg></div>
+<h4>Schimb ulei motor & filtre</h4>
+<p>Golire completă, schimb filtru ulei, filtru aer, filtru motorină. Uleiuri 15W-40 sau conform specificațiilor producătorului. Intervalul recomandat: 250-500 ore funcționare sau cel puțin anual.</p>
+</div>
+<div class="sc rv">
+<div class="si"><svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg></div>
+<h4>Antigel & sistem răcire</h4>
+<p>Verificare nivel, stare și densitate lichid răcire. Spălare circuit, înlocuire antigel, inspecție termostat, radiator, furtunuri, pompa de apă. Verificare circuit încălzitor antigel (preîncălzire motor diesel).</p>
+</div>
+<div class="sc rv">
+<div class="si"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg></div>
+<h4>Service alternator de forță trifazat</h4>
+<p>Verificare izolație înfășurări, diode, rulmenți, AVR (SX460 și altele). Ajustare și înlocuire curele alternator de motor diesel. Reparații și rebobinare alternator de forță. <strong>Important:</strong> alternatorul de forță trifazat generează curentul principal (230V/400V) — diferit de alternatorul de încărcare al motorului (12V/24V baterie).</p>
+</div>
+<div class="sc rv">
+<div class="si"><svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+<h4>Teste de sarcină & diagnosticare</h4>
+<p>Teste de funcționare sub sarcină maximă. Măsurare parametri nominali: tensiune (Fa), frecvență (Fc), factor de utilizare (Fu). Descărcare și analiză istoric. Verificare combustibil tanc, evaluare consum. Raport de service ReviziiPro.</p>
+</div>
+</div>
+</div></section>
+
+<!-- ═══ SECTION 2: UTILAJE ═══ -->
+<section class="sec" id="utilaje"><div class="ctn">
+<span class="tag rv">Utilaje de construcții</span>
+<h2 class="ttl rv">Service utilaje grele — motor diesel cu pompă hidraulică</h2>
+<p class="sub rv" style="max-width:700px">Service pe teren pentru echipamente grele de construcții. Clientul achiziționează piesele și consumabilele, noi asigurăm manopera profesională direct pe șantier.</p>
+<div class="dc rv" style="margin-top:28px">
+<div class="di"><svg viewBox="0 0 24 24"><rect x="1" y="14" width="6" height="8" rx="1"/><path d="M7 18h4l3-12h3l2 6h4"/><circle cx="9" cy="20" r="2"/><circle cx="20" cy="20" r="2"/></svg></div>
+<h3>Tipuri de utilaje pe care lucrăm</h3>
+<p>Excavatoare, buldoexcavatoare, încărcătoare frontale, miniexcavatoare, cilindri compactori, tractoare și alte echipamente grele cu motor diesel și sistem hidraulic.</p>
+<div class="dt" style="margin-top:12px">
+<span class="dtt">Pompă hidraulică</span>
+<span class="dtt">Cilindri hidraulici</span>
+<span class="dtt">Distribuitor</span>
+<span class="dtt">Motor diesel</span>
+<span class="dtt">Transmisii</span>
+<span class="dtt">Filtre hidraulice</span>
+</div>
+</div>
+<div class="sg" style="margin-top:24px">
+<div class="sc rv">
+<div class="si"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4m0 14v4"/></svg></div>
+<h4>Schimb ulei motor & filtre utilaj</h4>
+<p>Schimb ulei motor diesel, filtru ulei, filtru aer, filtru combustibil pe utilaje grele. Uleiuri conform specificațiilor producătorului utilajului. Prevenire uzură prematură și creștere consum combustibil.</p>
+</div>
+<div class="sc rv">
+<div class="si"><svg viewBox="0 0 24 24"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg></div>
+<h4>Reparații pompe hidraulice & cilindri</h4>
+<p>Înlocuire și reparare pompe hidraulice, distribuitoare, cilindri hidraulici. Schimb ulei hidraulic HLP 46/68 și filtre hidraulice. Verificare presiune pompă, stare furtunuri, etanșări. Prevenire defectare pompă și transmisie.</p>
+</div>
+<div class="sc rv">
+<div class="si"><svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg></div>
+<h4>Antigel, răcire & întreținere motor</h4>
+<p>Verificare și înlocuire antigel, inspecție sistem răcire, termostat, radiator. Verificare curele motor, furtunuri, pompa de apă. Diagnoză computerizată conform specificațiilor producătorului.</p>
+</div>
+</div>
+</div></section>
+
+<!-- ═══ SECTION 3: AUTOMATIZARE ═══ -->
+<section class="sec dual" id="automatizare"><div class="ctn">
+<span class="tag rv">Automatizare & tablou AAR</span>
+<h2 class="ttl rv">Tablou electric AAR, programare display & controlere</h2>
+<p class="sub rv" style="max-width:700px">Display-ul se programează și se conectează cu tabloul AAR — la căderea curentului de pe rețea, în 15 secunde pornește automat grupul electrogen. Clientul achiziționează componentele, noi facem instalarea, programarea și punerea în funcțiune.</p>
+<div class="dg" style="margin-top:28px">
+<div class="dc rv">
+<div class="di"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg></div>
+<h3>Programare display & controlere</h3>
+<p>Programăm și diagnosticăm display-uri și controlere pentru grupuri electrogene:</p>
+<div class="dt" style="margin-top:10px;margin-bottom:12px">
+<span class="dtt">ComAp AMF9</span>
+<span class="dtt">ComAp AMF20</span>
+<span class="dtt">ComAp AMF25</span>
+<span class="dtt">DSE 7320</span>
+<span class="dtt">Datakom D300</span>
+<span class="dtt">Datakom D500</span>
+<span class="dtt">Deif controller</span>
+</div>
+<p>Configurare parametri de funcționare prin software dedicat (InteliConfig pentru ComAp, DSE Suite pentru Deep Sea Electronics). Setare protecții, temporizări, comunicație cu tabloul AAR. Citire coduri eroare, resetare alarme, monitorizare la distanță prin cloud (WebSupervisor, DSE LiveLink).</p>
+</div>
+<div class="dc rv">
+<div class="di"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+<h3>Tablou electric AAR (Aclanșare Automată a Rezervei)</h3>
+<p>Tabloul AAR monitorizează permanent tensiunea de la rețea. Când detectează o cădere de tensiune, trimite comanda de pornire către generator și comută automat alimentarea — totul în <strong>15 secunde</strong>.</p>
+<p style="margin-top:10px">Componenta principală: <strong>două contactoare electromagnetice</strong> (unul pentru rețea, unul pentru generator) cu interlock mecanic și electric — nu pot fi închise simultan, prevenind alimentarea în contrasens.</p>
+<div class="dt" style="margin-top:12px">
+<span class="dtt">Instalare tablou AAR</span>
+<span class="dtt">Cablare forță CYY-F / NYY</span>
+<span class="dtt">Contactoare electromagnetice</span>
+<span class="dtt">Configurare temporizări</span>
+<span class="dtt">Testare comutare rețea↔generator</span>
+</div>
+</div>
+</div>
+</div></section>
+
+<!-- ═══ VIDEOURI ═══ -->
+<section class="sec" id="video"><div class="ctn">
+<span class="tag rv">Videouri din activitate</span>
+<h2 class="ttl rv">Cum arată munca noastră pe teren</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:32px">
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;border:1px solid var(--border)">
+<iframe src="https://www.youtube.com/embed/s36UNN9mIp4" title="ReviziiPro — Service generator" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;border:1px solid var(--border)">
+<iframe src="https://www.youtube.com/embed/6Wpw8xYXO8s" title="ReviziiPro — Service pe teren" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;border:1px solid var(--border)">
+<iframe src="https://www.youtube.com/embed/FaI2TW9nFJc" title="ReviziiPro — Revizie grup electrogen" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;border:1px solid var(--border)">
+<iframe src="https://www.youtube.com/embed/VaxNGloC5SU" title="ReviziiPro — Tablou AAR" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;border:1px solid var(--border)">
+<iframe src="https://www.youtube.com/embed/vWTWFDo_5rw" title="ReviziiPro — Automatizare AAR" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;border:1px solid var(--border)">
+<iframe src="https://www.youtube.com/embed/Ql2n77lEQ5o" title="Automatizare AAR simplă" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+</div>
+</div></section>
+
+<!-- AVR & ELECTRONICS -->
+<section class="sec" style="background:var(--bg2)" id="avr"><div class="ctn">
+<span class="tag rv">Componente critice</span>
+<h2 class="ttl rv">AVR & Sisteme electronice generator</h2>
+<p class="sub rv">Regulatorul automat de tensiune (AVR) este componenta care menține tensiunea stabilă la ieșirea alternatorului. Fără un AVR funcțional, generatorul nu poate alimenta echipamente sensibile.</p>
+<div class="avr-wrap">
+<div class="avr-card rv">
+<h3>AVR — Automatic Voltage Regulator <span class="avr-badge">SX460</span></h3>
+<p>AVR-ul (Automatic Voltage Regulator) este un stabilizator electronic de tensiune montat pe alternator. Rolul său este să mențină tensiunea de ieșire constantă indiferent de variațiile de sarcină. Modelul <strong>SX460</strong> este unul dintre cele mai răspândite AVR-uri pe generatoarele diesel din România.</p>
+<p>Când AVR-ul se defectează, generatorul produce tensiune instabilă sau nu generează tensiune deloc — provocând oprirea echipamentelor conectate sau, mai grav, deteriorarea acestora prin supratensiune.</p>
+<ul class="avr-specs">
+<li>Voltage Control System — sistem de control al tensiunii alternatorului</li>
+<li>Alternator Voltage Control — reglare automată în funcție de sarcină</li>
+<li>Menține tensiunea stabilă la 230V/400V trifazat</li>
+<li>Protecție la suprasarcină și scurtcircuit</li>
+<li>Model SX460 — compatibil cu majoritatea alternatoarelor Stamford, Mecc Alte, Leroy Somer</li>
+<li>Built to last — componentă de durată cu înlocuire la defectare</li>
+</ul>
+</div>
+<div class="avr-card rv">
+<h3>Deep Sea Electronics <span class="avr-badge">DSE</span></h3>
+<p><strong>Deep Sea Electronics (DSE)</strong> produce panouri de comandă și controlere digitale pentru grupuri electrogene — cele mai utilizate în industrie la nivel global. Le găsești pe generatoare Zenessis, Endress Power, Himoinsa, SDMO, Pramac, Visa, Gesan, RID și altele.</p>
+<p>Panourile DSE controlează pornirea/oprirea automată, monitorizează parametrii motorului (presiune ulei, temperatură, turație) și ai alternatorului (tensiune, frecvență, curent) și activează protecțiile în caz de avarie.</p>
+<ul class="avr-specs">
+<li>DSE 4520 / 6020 / 7320 — controlere auto-start și sincronizare</li>
+<li>DSE 8620 — controler multifuncțional cu monitorizare la distanță și web server integrat</li>
+<li>Monitorizare tensiune, frecvență, curent pe faze L1/L2/L3</li>
+<li>Protecții: supratensiune, subtensiune, supraviteză, supracurent, temperatură motor</li>
+<li>Comutare automată rețea-generator (ATS inteligent)</li>
+<li>Citire coduri eroare, resetare alarmă, jurnal de evenimente</li>
+<li>Configurare și parametrizare prin software DSE dedicat</li>
+</ul>
+</div>
+</div>
+<!-- Third card row -->
+<div class="avr-wrap" style="margin-top:20px">
+<div class="avr-card rv">
+<h3>ComAp — Programare display InteliConfig <span class="avr-badge">ComAp</span></h3>
+<p><strong>ComAp</strong> (Cehia) produce controlere inteligente pentru grupuri electrogene. Programăm display-urile ComAp prin software-ul <strong>InteliConfig</strong> — configurare completă a parametrilor de funcționare, protecții, temporizări și comunicație cu tabloul AAR.</p>
+<ul class="avr-specs">
+<li>ComAp AMF9 — controler compact auto mains failure</li>
+<li>ComAp AMF20 — controler AMF cu display grafic și protecții avansate</li>
+<li>ComAp AMF25 — AMF cu funcții extinse, monitorizare la distanță</li>
+<li>InteliGen — pentru sincronizare și funcționare în paralel</li>
+<li>Programare prin InteliConfig — setare parametri, protecții, temporizări AAR</li>
+<li>Monitorizare online prin cloud (WebSupervisor / AirGate)</li>
+</ul>
+</div>
+<div class="avr-card rv">
+<h3>Datakom, Deif & alte controlere <span class="avr-badge">Multi-brand</span></h3>
+<p>Programăm și diagnosticăm controlere <strong>Datakom</strong> (Turcia), <strong>Deif</strong> (Danemarca) și alte branduri. Fiecare display se configurează specific și se leagă cu tabloul AAR pentru comutare automată în 15 secunde.</p>
+<ul class="avr-specs">
+<li>Datakom D300 — controler AMF cu display, protecții motor și generator</li>
+<li>Datakom D500 — controler avansat cu monitorizare la distanță</li>
+<li>Deif controller — controlere industriale premium pentru grupuri electrogene</li>
+<li>Diagnosticare coduri eroare pe toate platformele</li>
+<li>Verificare senzori presiune ulei, temperatură, turație</li>
+<li>Programare temporizări AAR — pornire automată la 15 secunde după cădere rețea</li>
+</ul>
+</div>
+</div>
+</div></section>
+
+<!-- CHECKLIST from real reports -->
+<section class="sec" id="checklist"><div class="ctn">
+<span class="tag rv">Punct cu punct</span>
+<h2 class="ttl rv">Ce verificăm la revizia completă</h2>
+<p class="sub rv">Checklist-ul ReviziiPro urmează cele mai înalte standarde din industrie — fiecare punct este verificat sistematic pe teren și documentat în raportul de service.</p>
+<div class="chk-grid">
+<div class="chk-col rv">
+<h4><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4m0 14v4"/></svg> Verificări generale</h4>
+<ul class="chk-list">
+<li>Verificat nivel și stare ulei motor</li>
+<li>Verificat nivel, stare, densitate lichid răcire</li>
+<li>Verificat scurgeri lichide echipament</li>
+<li>Verificat circuitul încălzitorului de antigel</li>
+<li>Verificat circuit combustibil și stare furtune</li>
+<li>Verificat circuit de antigel și stare furtune</li>
+<li>Verificat stare senzori echipament</li>
+<li>Verificat regim de funcționare echipament</li>
+<li>Verificare combustibil tanc + observații</li>
+<li>Descărcare și analiză istoric echipament</li>
+</ul>
+</div>
+<div class="chk-col rv">
+<h4><svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg> Verificări mecanice</h4>
+<ul class="chk-list">
+<li>Verificat vizual conexiune flanșă motor</li>
+<li>Verificat amortizoare echipament</li>
+<li>Verificat ventilator motor și alternator</li>
+<li>Verificat și ajustat curele alternator motor diesel</li>
+<li>Verificat și strâns șuruburi echipament</li>
+<li>Verificat șurubul de drenare combustibil</li>
+<li>Verificat furtunul de la epurator</li>
+<li>Verificate balamalele și încuietorile ușilor</li>
+</ul>
+</div>
+<div class="chk-col rv">
+<h4><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> Verificări electrice</h4>
+<ul class="chk-list">
+<li>Verificat cablaje și împământare</li>
+<li>Verificat baterie cu tester</li>
+<li>Verificat conexiuni borne baterie</li>
+<li>Verificat încărcare baterie de pe rețea</li>
+<li>Verificat încărcare baterie de pe alternator</li>
+<li>Verificat demaror și alternator încărcare</li>
+<li>Verificat panou de comandă și display</li>
+<li>Verificat afișaje parametri corespunzători</li>
+<li>Teste de funcționare — parametri nominali (DA/NU)</li>
+<li>Măsurare Fa (tensiune), Fc (frecvență), Fu (utilizare)</li>
+</ul>
+</div>
+</div>
+</div></section>
+
+<!-- PRICING - PER INTERVENTION -->
+<section class="sec plans" id="tarife"><div class="ctn">
+<span class="tag rv">Tarife</span>
+<h2 class="ttl rv">Fiecare intervenție se negociază individual</h2>
+<p class="sub rv">Prețul depinde de complexitatea lucrării. Clientul achiziționează piesele și consumabilele, noi asigurăm manopera pe teren. Sunați-ne sau trimiteți mesaj pe WhatsApp și vă facem ofertă pe loc.</p>
+<div class="plans-grid">
+<div class="plan rv">
+<h3>Revizie standard</h3>
+<div class="pdesc">Schimb consumabile de bază</div>
+<div class="pprice">Preț negociabil</div>
+<div class="pnote">în funcție de tipul echipamentului</div>
+<ul>
+<li>Schimb ulei motor și filtre (ulei, aer, combustibil)</li>
+<li>Verificare baterie și sistem de pornire</li>
+<li>Verificare lichid răcire și antigel</li>
+<li>Testare funcțională pe parametri nominali</li>
+<li>Raport de service ReviziiPro</li>
+</ul>
+<a href="tel:+40758552980" class="bp">Cere ofertă</a>
+</div>
+<div class="plan feat rv">
+<span class="pbadge">Cel mai solicitat</span>
+<h3>Revizie completă</h3>
+<div class="pdesc">Verificare totală conform checklist</div>
+<div class="pprice">Preț negociabil</div>
+<div class="pnote">include deplasare pe teren</div>
+<ul>
+<li>Tot ce include revizia standard</li>
+<li>Verificare completă alternator de forță, AVR, panouri</li>
+<li>Schimb antigel și verificare sistem răcire complet</li>
+<li>Verificări mecanice + electrice (checklist complet)</li>
+<li>Teste de sarcină și stabilitate</li>
+<li>Descărcare și analiză istoric echipament</li>
+</ul>
+<a href="tel:+40758552980" class="bp">Cere ofertă</a>
+</div>
+<div class="plan rv">
+<h3>Reparație & depanare</h3>
+<div class="pdesc">Diagnosticare și rezolvare defecțiune</div>
+<div class="pprice">Preț negociabil</div>
+<div class="pnote">urgențe 24/24h disponibile</div>
+<ul>
+<li>Diagnosticare defecțiune pe teren</li>
+<li>Reparație alternator de forță / AVR / panouri</li>
+<li>Înlocuire piese cu garanție</li>
+<li>Configurare tablou AAR și panouri de comandă</li>
+<li>Testare completă după reparație</li>
+<li>Raport de constatare și recomandări</li>
+</ul>
+<a href="tel:+40758552980" class="bp">Cere ofertă</a>
+</div>
+</div>
+</div></section>
+
+<!-- FAQ -->
+<section class="sec"><div class="ctn">
+<span class="tag rv">Întrebări frecvente</span>
+<h2 class="ttl rv">Ce trebuie să știți</h2>
+<div class="faq-grid">
+<div class="fq rv">
+<h4>La cine apelez dacă generatorul se defectează?</h4>
+<p>Sunați la 0758 552 980 (disponibil 24/24h) sau trimiteți mesaj pe WhatsApp. Echipa noastră mobilă se deplasează pe teren în cel mai scurt timp posibil — nu trebuie să mutați generatorul.</p>
+</div>
+<div class="fq rv">
+<h4>Cât de des trebuie făcută revizia?</h4>
+<p>Reviziile se fac în funcție de orele de funcționare — de obicei la fiecare 250-500 ore sau cel puțin o dată pe an. În medii cu mult praf sau temperaturi extreme, intervalele trebuie scurtate.</p>
+</div>
+<div class="fq rv">
+<h4>Ce tipuri de generatoare reparați?</h4>
+<p>Lucrăm pe generatoare de curent industriale cu motorizare diesel: Perkins, Iveco, Baudouin, Volvo Penta, Scania, Hyundai, Dewerk, Man, Yanmar, Kubota, Honda, Cummins, Doosan — de la 17 kVA până la 900 kVA. Fie că e Zenessis, Endress Power, Himoinsa sau alt brand.</p>
+</div>
+<div class="fq rv">
+<h4>Ce se întâmplă dacă se oprește producția?</h4>
+<p>Sunați-ne imediat — avem echipă mobilă disponibilă 24/24h pentru urgențe. Intervenim direct pe teren în cel mai scurt timp posibil. Un tablou AAR corect configurat minimizează timpul de întrerupere prin comutare automată pe generator.</p>
+</div>
+<div class="fq rv">
+<h4>Ce utilaje de construcții deserviți?</h4>
+<p>Excavatoare, buldoexcavatoare, încărcătoare frontale, miniexcavatoare, cilindri compactori, tractoare — orice echipament cu motor diesel și sistem hidraulic. Schimb ulei, filtre, reparații pompe hidraulice.</p>
+</div>
+<div class="fq rv">
+<h4>Lucrați doar în Cluj?</h4>
+<p>Sediul nostru este în Cluj-Napoca, Str. Soporului Nr. 1. Oferim deplasare în tot județul Cluj și județele limitrofe. Pentru contracte de mentenanță, acoperim și alte zone din Transilvania.</p>
+</div>
+</div>
+</div></section>
+
+<!-- SUPPLIERS -->
+<section class="sec" style="background:var(--bg2)" id="furnizori"><div class="ctn">
+<span class="tag rv">Piese & consumabile</span>
+<h2 class="ttl rv">Clientul cumpără piesele — noi facem manopera</h2>
+<div class="sup-wrap rv">
+<p class="sup-text">Modelul nostru de lucru: <strong>dumneavoastră achiziționați piesele și consumabilele necesare</strong> (filtre, uleiuri, antigel, AVR, etc.), iar noi asigurăm manopera profesională pe teren — instalare, înlocuire, configurare și testare. Astfel aveți control total asupra costurilor cu piese, iar noi ne concentrăm pe ce știm cel mai bine: munca tehnică de calitate.</p>
+<p class="sup-text" style="margin-top:16px;margin-bottom:8px;font-weight:600;color:var(--or);font-size:.85rem">Piese originale și consumabile de la:</p>
+<div class="sup-grid" style="margin-bottom:20px">
+<span class="sup-pill">Perkins</span>
+<span class="sup-pill">Iveco</span>
+<span class="sup-pill">Baudouin</span>
+<span class="sup-pill">Volvo Penta</span>
+<span class="sup-pill">Scania</span>
+<span class="sup-pill">Cummins</span>
+<span class="sup-pill">Doosan</span>
+<span class="sup-pill">Man</span>
+<span class="sup-pill">Hyundai</span>
+<span class="sup-pill">Dewerk</span>
+<span class="sup-pill">Yanmar</span>
+<span class="sup-pill">Kubota</span>
+<span class="sup-pill">Honda</span>
+</div>
+<p class="sup-text" style="margin-bottom:8px;font-weight:600;color:var(--or);font-size:.85rem">Controlere & automatizare:</p>
+<div class="sup-grid" style="margin-bottom:20px">
+<span class="sup-pill">Deep Sea Electronics (DSE 7320)</span>
+<span class="sup-pill">ComAp AMF9 / AMF20 / AMF25</span>
+<span class="sup-pill">Datakom D300 / D500</span>
+<span class="sup-pill">Deif controller</span>
+<span class="sup-pill">AVR SX460 / SX440 / AS480</span>
+<span class="sup-pill">Hotstart (preîncălzire motor)</span>
+</div>
+<p class="sup-text" style="margin-bottom:8px;font-weight:600;color:var(--or);font-size:.85rem">Consumabile & piese de schimb:</p>
+<div class="sup-grid">
+<span class="sup-pill">Filtre ulei — originale motor</span>
+<span class="sup-pill">Filtre aer — standard & heavy duty</span>
+<span class="sup-pill">Filtre combustibil / motorină</span>
+<span class="sup-pill">Prefiltre combustibil cu separator apă</span>
+<span class="sup-pill">Filtre hidraulice — utilaje</span>
+<span class="sup-pill">Ulei motor 15W-40 / 10W-40</span>
+<span class="sup-pill">Ulei hidraulic HLP 46 / 68</span>
+<span class="sup-pill">Antigel concentrat G12 / G13</span>
+<span class="sup-pill">Curele alternator — trapezoidale & poly-V</span>
+<span class="sup-pill">Bujii incandescente diesel</span>
+<span class="sup-pill">Garnituri & kituri de revizie</span>
+<span class="sup-pill">Regulatoare turație</span>
+<span class="sup-pill">Electromotor / demaror</span>
+<span class="sup-pill">Senzori presiune ulei & temperatură</span>
+<span class="sup-pill">Papuci cupru M6-M12</span>
+<span class="sup-pill">Cabluri forță CYY-F / NYY</span>
+<span class="sup-pill">Pini de capăt — normal & furcă</span>
+<span class="sup-pill">Pompe de apă / răcire</span>
+<span class="sup-pill">Termostate motor</span>
+<span class="sup-pill">Radiatoare & furtunuri răcire</span>
+</div>
+</div>
+</div></section>
+
+<!-- WHY -->
+<section class="sec"><div class="ctn">
+<span class="tag rv">De ce ReviziiPro</span>
+<h2 class="ttl rv">Service fără bătăi de cap</h2>
+<div class="wg">
+<div class="wi rv"><div class="wn">0 km</div><h4>Tu nu muți nimic</h4><p>Venim noi pe șantier, la depozit sau oriunde ai echipamentul. Service complet pe teren.</p></div>
+<div class="wi rv"><div class="wn">24/24h</div><h4>Backup service</h4><p>Suport tehnic non-stop. Intervenție de urgență inclusiv în weekend și sărbători.</p></div>
+<div class="wi rv"><div class="wn">100%</div><h4>Garanție lucrări</h4><p>Garanție pe manoperă și piese. Raport de service complet la fiecare intervenție.</p></div>
+<div class="wi rv"><div class="wn">15+</div><h4>Ani experiență</h4><p>Generatoare diesel 17–900 kVA și utilaje grele de construcții. Toate motorizările.</p></div>
+</div>
+</div></section>
+
+<!-- CTA -->
+<section class="cta-b">
+<div class="ctn">
+<h2>Utilajul stă? Producția stă. Sună acum!</h2>
+<p>Intervenții de urgență 24/24h, 7/7 pentru generatoare diesel și utilaje de construcții.</p>
+<a href="tel:+40758552980" class="bd"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>0758 552 980</a>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section class="sec" id="contact"><div class="ctn">
+<span class="tag rv">Contact</span>
+<h2 class="ttl rv">Sună-ne sau trimite mesaj</h2>
+<p class="sub rv">Sediu în Cluj-Napoca. Deplasare în tot județul Cluj și județele limitrofe.</p>
+<div class="cw">
+<div class="ci">
+<div class="ct rv"><div class="cc"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div><div><h4>Telefon</h4><p><a href="tel:+40758552980">0758 552 980</a></p></div></div>
+<div class="ct rv"><div class="cc"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><h4>Adresă</h4><p>Strada Soporului Nr. 1<br>Cluj-Napoca, jud. Cluj</p></div></div>
+<div class="ct rv"><div class="cc"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><div><h4>Program</h4><p>Luni – Vineri: 08:00 – 18:00<br>Sâmbătă: 09:00 – 14:00<br>Urgențe: 24/24h, 7/7</p></div></div>
+<div class="ct rv"><div class="cc"><svg viewBox="0 0 24 24" fill="#25d366" stroke="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.79 23.329l4.47-1.472A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg></div><div><h4>WhatsApp</h4><p><a href="https://wa.me/40758552980?text=Buna%20ziua%2C%20am%20nevoie%20de%20service%20generator." target="_blank" rel="noopener">Trimite mesaj</a></p></div></div>
+</div>
+<div class="cm rv"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.5!2d23.56!3d46.75!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDQ1JzAwLjAiTiAyM8KwMzMnMzYuMCJF!5e0!3m2!1sro!2sro!4v1" allowfullscreen loading="lazy"></iframe></div>
+</div>
+</div></section>
+
+<!-- FOOTER -->
+<footer class="ft"><div class="ctn">
+<div class="ft-top">
+<div class="ft-brand">
+<a href="#" class="logo"><svg width="30" height="30" viewBox="0 0 38 38" fill="none"><path d="M19 4l2.2 3.2 3.8-.8.8 3.8 3.8.8L28.4 15l2.6 2.8-2.6 2.8 1.2 3.8-3.8.8-.8 3.8-3.8-.8L19 30.4l-2.2-3.2-3.8.8-.8-3.8-3.8-.8L9.6 19.6 7 16.8l2.6-2.8-1.2-3.8 3.8-.8.8-3.8 3.8.8L19 4z" stroke="#e97316" stroke-width="1.4" fill="rgba(233,115,22,.06)"/><path d="M21 9l-2.5 5.5h3L19.5 21l4-6h-3L21 9z" fill="#e97316" opacity=".8"/></svg><span class="logo-t">Revizii<em>Pro</em></span></a>
+<p>Instalare, PIF, Constatare, Revizie, Reparație grupuri electrogene / generatoare de curent industriale cu motorizare diesel: Perkins, Iveco, Baudouin, Volvo Penta, Scania, Cummins, Doosan, Man, Hyundai, Dewerk, Yanmar, Kubota, Honda. Programare display ComAp, DSE, Datakom, Deif. Tablou AAR. Cluj-Napoca și împrejurimi.</p>
+</div>
+<div><h5>Servicii</h5><ul class="fl"><li><a href="#generatoare">Grupuri electrogene</a></li><li><a href="#utilaje">Utilaje construcții</a></li><li><a href="#automatizare">Automatizare & AAR</a></li><li><a href="#avr">AVR & Controlere</a></li><li><a href="#checklist">Revizie completă</a></li></ul></div>
+<div><h5>Tarife & piese</h5><ul class="fl"><li><a href="#tarife">Revizie standard</a></li><li><a href="#tarife">Revizie completă</a></li><li><a href="#tarife">Reparație & depanare</a></li><li><a href="#furnizori">Piese & consumabile</a></li><li><a href="#video">Videouri</a></li></ul></div>
+<div><h5>Contact</h5><ul class="fl"><li><a href="tel:+40758552980">0758 552 980</a></li><li><a href="https://wa.me/40758552980" target="_blank" rel="noopener">WhatsApp</a></li><li>Str. Soporului Nr. 1</li><li>Cluj-Napoca, Cluj</li></ul></div>
+</div>
+<div class="fb"><span>&copy; 2026 ReviziiPro. Toate drepturile rezervate.</span><div class="fleg"><a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="noopener">ANPC</a><a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">SOL</a></div></div>
+</div></footer>
+
+<!-- WA FLOAT -->
+<a href="https://wa.me/40758552980?text=Buna%20ziua%2C%20am%20nevoie%20de%20service%20generator." class="waf" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.79 23.329l4.47-1.472A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg></a>
+
+<!-- MOBILE BAR -->
+<div class="mb"><div class="mbi">
+<a href="tel:+40758552980" class="mc"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Sună acum</a>
+<a href="https://wa.me/40758552980?text=Buna%20ziua%2C%20am%20nevoie%20de%20service." class="mw" target="_blank" rel="noopener"><svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.79 23.329l4.47-1.472A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>WhatsApp</a>
+</div></div>
+
+<script>
+document.getElementById('ham').addEventListener('click',function(){document.getElementById('nL').classList.toggle('open')});
+document.querySelectorAll('.nl a').forEach(a=>a.addEventListener('click',()=>document.getElementById('nL').classList.remove('open')));
+const o=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting){el.target.classList.add('vis');o.unobserve(el.target)}})},{threshold:.08,rootMargin:'0px 0px -30px 0px'});
+document.querySelectorAll('.rv').forEach(el=>o.observe(el));
+</script>
+</body>
+</html>
