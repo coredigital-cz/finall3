@@ -1,0 +1,19 @@
+# ReviziiPro Cluj — robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://reviziipro.ro/sitemap.xml
+
+# Blochează accesul la fișiere/foldere administrative (dacă vor exista)
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /*.json$
+
+# Crawl-delay pentru boți agresivi (opțional)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
